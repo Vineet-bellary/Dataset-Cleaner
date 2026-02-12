@@ -1,8 +1,8 @@
 import streamlit as st
-from core.dataUploader import dataset_upload
+from core.upload_logic import dataset_upload
 
 
-def show_upload():
+def show_uploader():
     data = dataset_upload()
 
     if data is not None:
